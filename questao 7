@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Nota
+		escreva("De uma nota de 0 a 10:")
+		leia(Nota)
+		enquanto(Nota < 0 ou Nota > 10)
+		{
+		escreva("Valor invalido, diga outro numero de 0 a 10:")
+		leia(Nota)
+		}
+	}
+}
