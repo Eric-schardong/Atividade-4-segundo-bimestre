@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro N1, N2
+		escreva("Me de um numero: ")
+		leia(N1)
+		escreva("Me de outro numero (maior que o primeiro): ")
+		leia(N2)
+		para(inteiro i = N1 +1; i < N2; i++)
+		{
+			escreva(i, "\n")
+		}
+	}
+}
