@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num, resultado = 0
+		leia(num)
+		resultado = num
+		para(inteiro i = num -1; 0 < i; i--)
+		{
+			resultado = resultado * i
+		}
+		escreva(resultado)
+	}
+}
