@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro quantnumeros, numeros[100]
+		cadeia cont = ""
+		escreva("Adicione um numero a lista: ")
+		leia(numeros[0])
+		escreva("quer adicionar mais um numero?: ")
+		leia(cont)
+		para(inteiro i = 1; cont == "sim" e i != 99; i++)
+		{
+		escreva("Adicione um numero a lista: ")
+		leia(numeros[i])
+		escreva("quer adicionar mais um numero?: ")
+		leia(cont)
+		}
+	}
+}
