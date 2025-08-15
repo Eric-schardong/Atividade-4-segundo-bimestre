@@ -1,0 +1,15 @@
+programa
+{
+	
+inteiro n1 = 0, n2 = 1, num = 0
+	funcao inicio()
+	{
+		para(inteiro i = 0; num <= 500 ; i++)
+		{
+			escreva(num, " ")
+			num = n1 + n2
+			n2 = n1
+			n1 = num
+		}
+	}
+}
